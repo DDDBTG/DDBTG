@@ -1,8 +1,8 @@
 --[[
 
 #
-#     @GPMOD
-#   @Dragon_Born
+#     @DDBTG
+#   @DDBTG1
 #      
 
 ]]
@@ -17,7 +17,7 @@ local function run(msg, matches)
 		for i = 1, #items do
 		text = text..'\n'..i..'- '..items[i].title..'  -  تعداد بازدید: '..items[i].visit_cnt..'\n    لینک: aparat.com/v/'..items[i].uid
 		end
-		text = text..'\n\n@GPMod'
+		text = text..'\n\n@DDBTG1'
 		return text
 	end
 end
